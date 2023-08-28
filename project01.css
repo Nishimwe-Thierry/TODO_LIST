@@ -1,0 +1,36 @@
+body{
+    font-family: "Open Sans";
+    display: grid;
+    place-content: center;
+}
+.mylogo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+#addlist{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  purple;
+    color: white;
+    font-size: 15px;
+}
+.list{
+    background-color: aquamarine;
+     display: flex;
+    gap: 10px;
+    width: 250px;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    border-radius: 5px
+}
+.alllist{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
